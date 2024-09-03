@@ -83,11 +83,11 @@ def decriptar_enigma(mensagem_encriptada: str,
     return nova_mensagem
 
 # Testando o código
-tupla = gerar_matrizes_de_permutacao(len(global_alphabet))
-mensagem_teste = 'mitó'
-criptada = encriptar_enigma(mensagem_teste, tupla[0], tupla[1])
-descriptada = decriptar_enigma(criptada, tupla[0], tupla[1])
+# tupla = gerar_matrizes_de_permutacao(len(global_alphabet))
+# mensagem_teste = 'mitó'
+# criptada = encriptar_enigma(mensagem_teste, tupla[0], tupla[1])
+# descriptada = decriptar_enigma(criptada, tupla[0], tupla[1])
 
-print(f"Mensagem original: {mensagem_teste}")
-print(f"Mensagem criptografada: {criptada}")
-print(f"Mensagem descriptografada: {descriptada}")
+# print(f"Mensagem original: {mensagem_teste}")
+# print(f"Mensagem criptografada: {criptada}")
+# print(f"Mensagem descriptografada: {descriptada}")
